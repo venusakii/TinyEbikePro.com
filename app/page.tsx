@@ -7,19 +7,7 @@ import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { Navigation } from "@/components/navigation"
-import {
-  Battery,
-  Lightbulb,
-  Shield,
-  Plug,
-  Backpack,
-  Settings,
-  Zap,
-  Star,
-  ChevronRight,
-  Play,
-  Check,
-} from "lucide-react"
+import { Battery, Lightbulb, Shield, Plug, Backpack, Settings, Zap, Star, ChevronRight, Check } from "lucide-react"
 
 export default function TinyEbikeProPage() {
   const [email, setEmail] = useState("")
@@ -165,16 +153,17 @@ export default function TinyEbikeProPage() {
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-balance">
             Top 5 <span className="text-[#00F0A0]">E-Bike Accessories</span> for 2025
           </h2>
-          <div className="relative aspect-video bg-[#3A3D45]/30 rounded-lg overflow-hidden border border-[#3A3D45] hover:border-[#00F0A0] transition-colors group">
+          <div className="relative aspect-video bg-[#3A3D45]/30 rounded-lg overflow-hidden border border-[#3A3D45] hover:border-[#00F0A0] transition-all group hover:shadow-[0_0_40px_rgba(0,240,160,0.3)]">
             <img
               src="/electric-bike-accessories-showcase-neon-lights.jpg"
-              alt="Video thumbnail"
-              className="w-full h-full object-cover"
+              alt="Top E-Bike Accessories Showcase"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-[#00F0A0] flex items-center justify-center shadow-[0_0_40px_rgba(0,240,160,0.8)] group-hover:scale-110 transition-transform cursor-pointer animate-pulse">
-                <Play className="h-10 w-10 text-[#0D0F12] ml-1" />
-              </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0D0F12]/80 via-transparent to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-8 text-left">
+              <p className="text-lg text-[#EAEAEA]/90 text-pretty">
+                Discover the essential accessories that will transform your e-bike experience in 2025
+              </p>
             </div>
           </div>
         </div>
@@ -384,18 +373,18 @@ export default function TinyEbikeProPage() {
               <span className="text-[#EAEAEA]">Pro</span>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-[#EAEAEA]/70">
-              <a href="#" className="hover:text-[#00F0A0] transition-colors">
+              <Link href="/privacy" className="hover:text-[#00F0A0] transition-colors">
                 Privacy Policy
-              </a>
-              <a href="#" className="hover:text-[#00F0A0] transition-colors">
+              </Link>
+              <Link href="/terms" className="hover:text-[#00F0A0] transition-colors">
                 Terms
-              </a>
-              <a href="#" className="hover:text-[#00F0A0] transition-colors">
+              </Link>
+              <Link href="/contact" className="hover:text-[#00F0A0] transition-colors">
                 Contact
-              </a>
-              <a href="#" className="hover:text-[#00F0A0] transition-colors">
+              </Link>
+              <Link href="/about" className="hover:text-[#00F0A0] transition-colors">
                 About Us
-              </a>
+              </Link>
             </div>
           </div>
           <div className="text-center text-[#EAEAEA]/50 text-sm space-y-2">
