@@ -31,6 +31,18 @@ export default function ReviewsPage() {
       featured: true,
     },
     {
+      slug: "vxw-bike-gloves",
+      name: "VXW Bike Gloves for Women Men",
+      rating: 4.7,
+      reviewCount: 2845,
+      price: "$16.99",
+      category: "Comfort",
+      image: "https://m.media-amazon.com/images/I/61D3huoQEjL._AC_SX679_.jpg",
+      excerpt:
+        "Cycling gloves with gel padding and touchscreen compatibility. Breathable, shock-absorbing design perfect for road biking, mountain biking, and commuting.",
+      featured: true,
+    },
+    {
       slug: "lamicall-bike-phone-holder",
       name: "Lamicall Bike Phone Holder",
       rating: 4.7,
@@ -109,6 +121,30 @@ export default function ReviewsPage() {
       excerpt:
         "Innovative 3-zone design made in Germany. Ergonomic non-slip comfort and EFC zones for optimized grip & comfort on handlebars.",
       featured: false,
+    },
+    {
+      slug: "hoto-mini-bike-pump",
+      name: "HOTO Mini Bike Tire Pump",
+      rating: 4.8,
+      reviewCount: 1247,
+      price: "$41.99",
+      category: "Accessories",
+      image: "https://m.media-amazon.com/images/I/71xeRf1-jCL._AC_SX679_.jpg",
+      excerpt:
+        "25-second fast inflate electric bike air pump with gauge. 150PSI portable pump with Presta and Schrader valve for road bike, motorcycle, mountain bike, car, and sports ball.",
+      featured: true,
+    },
+    {
+      slug: "smith-dispatch-mips-helmet",
+      name: "SMITH Dispatch MIPS Cycling Helmet",
+      rating: 4.8,
+      reviewCount: 1543,
+      price: "$120.00",
+      category: "Safety",
+      image: "https://m.media-amazon.com/images/I/61ABm3iKpUL._AC_SX679_.jpg",
+      excerpt:
+        "Premium cycling helmet with MIPS technology for enhanced protection. Lightweight design with superior ventilation, adjustable fit system, and sleek aerodynamic profile for road and mountain biking.",
+      featured: true,
     },
   ]
 
